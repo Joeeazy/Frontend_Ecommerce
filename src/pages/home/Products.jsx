@@ -53,7 +53,7 @@ export default function Products() {
           {/* all btns */}
           <div className="flex flex-row justify-start md:items-center md:gap-8 gap-4 flex-wrap">
             <button onClick={showAll}>All Products</button>
-            <button onClick={() => filterItems("Dress")}>T-shirts</button>
+            <button onClick={() => filterItems("Dress")}>Dresses</button>
             <button onClick={() => filterItems("Hoodies")}>Hoodies</button>
             <button onClick={() => filterItems("Bags")}>Bags</button>
             <button onClick={() => filterItems("Shoe")}>Shoes</button>

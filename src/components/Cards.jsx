@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Cards({ filteredItems }) {
   return (
     <div className="grid xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 items-end justify-center gap-12 shadow-sm">
-      {filteredItems.map((item) => (
+      {filteredItems.slice(0, 8).map((item) => (
         <div key={item.id}>
           <Link to={`/shop/${item.id}`}>
             <img
@@ -17,7 +17,7 @@ export default function Cards({ filteredItems }) {
             <h4 className="text-base font-semibold mb-2">{item.title}</h4>
             <div className="flex justify-between">
               <p className="text-black/50">{item.category}</p>
-              <p className="font-semibold">{item.Price}</p>
+              <p className="font-semibold">Ksh {item.price}</p>
             </div>
           </div>
         </div>

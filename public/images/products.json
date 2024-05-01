@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Adicolor classic Joggers",
     "category": "Dress",
-    "Price": 63.85,
+    "price": 2000,
     "image": "/images/products/product8.png",
     "status": "Best sellers"
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "title": "Nike sportswear Futura Luxe",
     "category": "Bags",
-    "Price": 130.0,
+    "price": 1000,
     "image": "/images/products/product2.png",
     "status": "Best sellers"
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "title": "Geometric Print Scarf",
     "category": "Dress",
-    "Price": 53.0,
+    "price": 3500,
     "image": "/images/products/product3.png",
     "status": "Best sellers"
   },
@@ -27,7 +27,7 @@
     "id": 4,
     "title": "Yellow Reserved Hoodie",
     "category": "Hoodies",
-    "Price": 155.0,
+    "price": 1550,
     "image": "/images/products/product4.png",
     "status": "Best sellers"
   },
@@ -35,7 +35,7 @@
     "id": 5,
     "title": "Basic Dress Green",
     "category": "Dress",
-    "Price": 236.0,
+    "price": 2360,
     "image": "/images/products/product5.png",
     "status": "Best sellers"
   },
@@ -43,7 +43,7 @@
     "id": 6,
     "title": "Nike Air Zoom Pegasus",
     "category": "Shoe",
-    "Price": 198.0,
+    "price": 1980,
     "image": "/images/products/product6.png",
     "status": "Best sellers"
   },
@@ -51,7 +51,7 @@
     "id": 7,
     "title": "Nike Repel Miler",
     "category": "Hoodies",
-    "Price": 120.5,
+    "price": 2500,
     "image": "/images/products/product1.png",
     "status": "Best sellers"
   },
@@ -59,8 +59,24 @@
     "id": 8,
     "title": "Nike sportswear Futura Luxe",
     "category": "Glasses",
-    "Price": 160.0,
+    "price": 3000.0,
     "image": "/images/products/product7.png",
+    "status": "Best sellers"
+  },
+  {
+    "id": 9,
+    "title": "Black fashion Gumshoes",
+    "category": "Shoe",
+    "price": 2000.0,
+    "image": "/images/products/product9.jpg",
+    "status": "Best sellers"
+  },
+  {
+    "id": 10,
+    "title": "Fashion woman High Heels",
+    "category": "Shoe",
+    "price": 1500.0,
+    "image": "/images/products/product10.jpg",
     "status": "Best sellers"
   }
 ]
