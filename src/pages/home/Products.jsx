@@ -42,7 +42,35 @@ export default function Products() {
     setFilteredItems(products);
     setSelectedCategory("all");
   };
+  //sorting functionality
+  const handleSortChange = (option) => {
+    setSortOptions(option);
+    //logic for sorting items
+    let sortedItems = [...filteredItems];
+    //console.log(sortedItems);
+    switch (option) {
+      case "A-Z":
+        sortedItems.sort((a, b) => a.title.localeCompare(b.title));
+        break;
 
+      case "Z-A":
+        sortedItems.sort((a, b) => b.title.localeCompare(a.title));
+        break;
+
+      case "high-to-low":
+        sortedItems.sort((a, b) => b.price - a.price);
+        break;
+
+      case "low-to-high":
+        sortedItems.sort((a, b) => a.price - b.price);
+        break;
+
+      default:
+        break;
+    }
+
+    setFilteredItems(sortedItems);
+  };
   return (
     <div className="max-w-screen-2xl container mx-auto xl:px-28 px-4 mb-12">
       <h2 className="title">Subscribe to the newsletter</h2>
@@ -64,11 +92,16 @@ export default function Products() {
             <div className="bg-black p-2">
               <FaFilter className="text-white h-4 w-4" />
             </div>
-            <select className="bg-black text-white px-2 py-1 rounded-sm">
+            <select
+              id="sort"
+              onChange={(e) => handleSortChange(e.target.value)}
+              value={sortOptions}
+              className="bg-black text-white px-2 py-1 rounded-sm"
+            >
               <option value="default">Default</option>
               <option value="A-Z">A-Z</option>
               <option value="Z-A">Z-A</option>
-              <option value="high- to-low">High to Low</option>
+              <option value="high-to-low">High to Low</option>
               <option value="low-to-high">Low to High</option>
             </select>
           </div>
