@@ -13,7 +13,7 @@
     "category": "Bags",
     "price": 1000,
     "image": "/images/products/product2.png",
-    "status": "Best sellers"
+    "status": "New arrival"
   },
   {
     "id": 3,
@@ -69,7 +69,7 @@
     "category": "Shoe",
     "price": 2000.0,
     "image": "/images/products/product9.jpg",
-    "status": "Best sellers"
+    "status": "New arrival"
   },
   {
     "id": 10,
@@ -77,6 +77,6 @@
     "category": "Shoe",
     "price": 1500.0,
     "image": "/images/products/product10.jpg",
-    "status": "Best sellers"
+    "status": "New arrival"
   }
 ]
