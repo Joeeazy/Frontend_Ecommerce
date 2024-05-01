@@ -3,6 +3,7 @@ import Banner from "./Banner";
 import BestSellers from "./BestSellers";
 import Category from "./Category";
 import Collections from "./Collections";
+import NewsLetters from "./NewsLetters";
 import Products from "./Products";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <Products />
       <Collections />
       <BestSellers />
+      <NewsLetters />
     </div>
   );
 }
