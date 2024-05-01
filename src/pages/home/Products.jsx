@@ -56,6 +56,7 @@ export default function Products() {
             <button onClick={() => filterItems("Dress")}>T-shirts</button>
             <button onClick={() => filterItems("Hoodies")}>Hoodies</button>
             <button onClick={() => filterItems("Bags")}>Bags</button>
+            <button onClick={() => filterItems("Shoe")}>Shoes</button>
           </div>
 
           {/* Sorting options */}
